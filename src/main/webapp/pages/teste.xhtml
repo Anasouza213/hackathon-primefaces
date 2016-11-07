@@ -8,8 +8,8 @@
 </h:head>
 <h:body>
     <h:form>
-    <h:inputText value="#{denunciaMB.tipo.descricao}" />
-         <p:commandButton value="Chamar Bean" action="#{denunciaMB.chamar()}"></p:commandButton>
+         <h:outputLabel value="RESULTADO:"/>
+         <h:outputText value="#{denunciaMB.tipo.descricao}" />
     </h:form>
 </h:body>
 </html>
